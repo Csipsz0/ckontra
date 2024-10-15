@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <button id="increaseButton">increase</button>
+        <div id="monitor">0</div>
+        <button id="decreaseButton">decrease</button>
+    </body>
+    <script>
+        document.getElementById('increaseButton').onclick = function() {
+    counter+=1;
+    document.getElementById('monitor').innerHTML = counter;
+}
+document.getElementById('decreaseButton').onclick = function() {
+    counter-=1;
+    document.getElementById('monitor').innerHTML = counter;
+}
+
+    </script>
+</html>
