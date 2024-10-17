@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html style="background:darkcyan ">
     <body>
-        <div style="background-color: chartreuse;">
-            <button id="increaseButton">increase</button>
+        <div style="background-color: chartreuse; width: 500px;; height: 100px;">
+            <button id="increaseButton" >increase</button>
             <div id="monitor">0</div>
             <button id="decreaseButton">decrease</button>
         </div>
     </body>
     <script>
         let counter = 0
-        document.getElementById('increaseButton').onclick = function() {
+document.getElementById('increaseButton').onclick = function() {
     counter+=1;
     document.getElementById('monitor').innerHTML = counter;
 }
@@ -17,6 +17,5 @@ document.getElementById('decreaseButton').onclick = function() {
     counter-=1;
     document.getElementById('monitor').innerHTML = counter;
 }
-
     </script>
 </html>
